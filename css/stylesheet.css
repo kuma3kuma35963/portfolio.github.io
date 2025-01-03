@@ -169,3 +169,21 @@ footer .nav-list{
     justify-content: flex-start;
     padding: 0 0 80px 20px;
   }
+
+
+  .law_list{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .law_list dt{
+    font-weight: bold;
+    border-bottom: 1px solid #E2E7F3;
+  }
+  .law_list dd{
+    padding: 4px 0 16px;
+  }
+  @media (max-width: 640px) {
+    .law_list{
+      font-size: 14px;
+    }
+  }
